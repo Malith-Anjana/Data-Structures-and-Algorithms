@@ -1,5 +1,6 @@
 package part1.Arrays;
 
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -23,7 +24,19 @@ public class Main {
         System.out.println(numbers.indexOf(7));
         numbers.print();
 
-        
+        //Dynamic Arrays
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(4);
+        list.add(7);
+        list.add(5);
+        list.add(8);
+        list.add(3);
+        list.remove(3);
+        System.out.println(list.contains(5));
+
+        Object [] regArray = list.toArray();
+        System.out.println(Arrays.toString(regArray));
+
 
     }
 }
