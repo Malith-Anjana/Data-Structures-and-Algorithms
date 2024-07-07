@@ -5,7 +5,8 @@ import java.util.LinkedList;
 
 public class Main {
     public static void main(String[] args){
-        LinkedList lists = new LinkedList(); //If don't add generic type (LinkedLists<Integer> ...) we can store difference type of objects
+        LinkedList lists = new LinkedList();
+        //If don't add generic type (LinkedList<Integer> list = new LinkedList<>(); ...) we can store difference type of objects
         lists.addFirst(10);
         lists.addLast(30);
         lists.addLast(20);
@@ -14,7 +15,10 @@ public class Main {
         System.out.println(lists.indexOf(30));
         System.out.println(lists.size());
         var array = lists.toArray();
+        System.out.println("1st Element: "+ lists.get(0));
         System.out.println(Arrays.toString(array));
+
+
 
 
         //Create custom LinkedLists -> Exercise
@@ -31,7 +35,7 @@ public class Main {
         var arrays = list.toArray();
         System.out.println(Arrays.toString(arrays));
 
-        System.out.println(list.getKthfromEnd(3));
+        System.out.println(list.getKthfromEnd(2));
 
 
 
