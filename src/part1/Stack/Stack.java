@@ -3,6 +3,7 @@ package part1.Stack;
 import java.util.Arrays;
 
 //Create custom Stack to get Idea of Stack works -> Exercise
+
 public class Stack {
     private int[] items = new int[5];
     private int count;

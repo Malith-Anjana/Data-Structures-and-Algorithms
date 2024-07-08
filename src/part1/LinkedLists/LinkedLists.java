@@ -1,6 +1,6 @@
 package part1.LinkedLists;
-//This class demonstrates for create custom LinkedLists and How it works.
 
+//This class demonstrates for create custom LinkedLists and How it works.
 import java.util.NoSuchElementException;
 
 public class LinkedLists {
