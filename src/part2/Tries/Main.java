@@ -1,4 +1,4 @@
-package part2.Trie;
+package part2.Tries;
 
 public class Main {
     public static void main(String[] args){

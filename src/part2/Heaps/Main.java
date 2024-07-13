@@ -1,4 +1,4 @@
-package part2.Heap;
+package part2.Heaps;
 
 import java.util.Arrays;
 
@@ -14,7 +14,7 @@ public class Main {
 //        heap.remove();
         System.out.println("Done");
 
-        //Adding integer array to Heap - Exercise
+        //Adding integer array to Heaps - Exercise
         int[] numbers = { 3, 2, 5, 4, 1, 10};
 
         for (int number : numbers)

@@ -1,4 +1,4 @@
-package part2.Heap;
+package part2.Heaps;
 
 
 public class MaxHeap {

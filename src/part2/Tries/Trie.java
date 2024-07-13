@@ -1,4 +1,4 @@
-package part2.Trie;
+package part2.Tries;
 
 
 import java.util.ArrayList;
