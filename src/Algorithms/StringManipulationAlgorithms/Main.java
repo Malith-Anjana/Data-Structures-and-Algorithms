@@ -20,5 +20,9 @@ public class Main {
         //is Rotation - ABCD -> DABC -> CDAB -> BCDA -> ABCD Check one of this rotation of other one
         var isRotation = Rotation.isRotation("ABCD", "BCDA");
         System.out.println(isRotation);
+
+        //remove duplicate
+        var string = RemoveDuplicates.removeDuplicate("Trees are everywhere");
+        System.out.println(string);
     }
 }
