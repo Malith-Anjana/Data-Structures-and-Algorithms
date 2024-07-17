@@ -36,5 +36,7 @@ public class Main {
 
         //are Anagrams
         var areAnagram = Anagrams.areAnagrams("ABCD", "CDAB");
+        var areAnagram2 = Anagrams.areAnagram2("ABCD", "CDAAB");
+        System.out.println(areAnagram);
     }
 }
