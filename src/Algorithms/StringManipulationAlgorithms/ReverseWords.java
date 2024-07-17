@@ -1,7 +1,5 @@
 package Algorithms.StringManipulationAlgorithms;
 
-import part1.Arrays.Array;
-
 import java.util.Arrays;
 import java.util.Collections;
 
