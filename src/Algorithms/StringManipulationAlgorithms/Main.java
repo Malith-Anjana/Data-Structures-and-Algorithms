@@ -30,5 +30,8 @@ public class Main {
         var ch2 = MostRepeatedChar.getMaxOccuringChar2("Trees are gifts of nature");
         System.out.println(ch2);
 
+        //Capitalize sentence
+        var sentence = SentenceCapitalize.capitalize("Trees ARE gifts of nature");
+        System.out.println(sentence);
     }
 }
