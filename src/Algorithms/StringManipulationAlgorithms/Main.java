@@ -33,5 +33,8 @@ public class Main {
         //Capitalize sentence
         var sentence = SentenceCapitalize.capitalize("Trees ARE gifts of nature");
         System.out.println(sentence);
+
+        //are Anagrams
+        var areAnagram = Anagrams.areAnagrams("ABCD", "CDAB");
     }
 }
