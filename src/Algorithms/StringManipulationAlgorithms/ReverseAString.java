@@ -1,6 +1,6 @@
 package Algorithms.StringManipulationAlgorithms;
 
-public class ReverseString {
+public class ReverseAString {
     public static String reverse(String str){
         if (str == null)
             return "";
