@@ -1,6 +1,5 @@
 package Algorithms.StringManipulationAlgorithms;
 
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args){
@@ -18,5 +17,8 @@ public class Main {
         var reverseWords = ReverseWords.reverse(word);
         System.out.println(reverseWords);
 
+        //is Rotation - ABCD -> DABC -> CDAB -> BCDA -> ABCD Check one of this rotation of other one
+        var isRotation = Rotation.isRotation("ABCD", "BCDA");
+        System.out.println(isRotation);
     }
 }
