@@ -38,5 +38,10 @@ public class Main {
         var areAnagram = Anagrams.areAnagrams("ABCD", "CDAB");
         var areAnagram2 = Anagrams.areAnagram2("ABCD", "CDAAB");
         System.out.println(areAnagram);
+
+        //is Palindrome
+        var isPalaindrome = Palindrome.isPalindrome("MADAM");
+        var isPalaindrome2 = Palindrome.isPalindrome2("MADAM");
+        System.out.println("Palindrome: " + isPalaindrome2);
     }
 }

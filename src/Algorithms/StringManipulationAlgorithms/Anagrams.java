@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Anagrams {
     public static boolean areAnagrams(String first, String second) {
-        //Same characters with different orders
+        //Same characters with different orders - ABCD -> ACDB
         if (first == null || second == null)
             return false;
 
