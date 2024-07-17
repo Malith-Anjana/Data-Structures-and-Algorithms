@@ -24,5 +24,11 @@ public class Main {
         //remove duplicate
         var string = RemoveDuplicates.removeDuplicate("Trees are everywhere");
         System.out.println(string);
+
+        //most repeated char
+        var ch = MostRepeatedChar.getMaxOccuringChar("Trees are gifts of nature");
+        var ch2 = MostRepeatedChar.getMaxOccuringChar2("Trees are gifts of nature");
+        System.out.println(ch2);
+
     }
 }
